@@ -1,0 +1,42 @@
+.Nav {
+        height:70px;
+        width: 100%;
+        background: linear-gradient(170deg, #010101, #170776);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+}
+
+.Title{
+        font-size: 30px;
+        color: #fff;
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        margin-left: 20px;
+        &:hover{color:red};
+}
+
+.CartImg {
+        height:48px;
+        margin-right:20px;
+    }
+
+.CartImgContainer{
+    position: relative;
+    cursor: pointer;
+}
+
+/* .CartCount{
+        background: ${(props)=> props.color};
+        border-radius: 50%;
+        color: white;
+        padding: 4px 8px;
+        position: absolute;
+        right:10px;
+        top:-5px;
+        font-size:12px;
+        visibility:  ${(props) => (props.show ? "visible":"hidden")};
+} */
+
